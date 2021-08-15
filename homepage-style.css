@@ -15,7 +15,7 @@ body    {
 
 #navbar   {
    display: block;
-   padding-top: 20px;
+   padding-top: 5px;
 padding-left: 20px;
 padding-right: 20px;
 
@@ -31,8 +31,15 @@ li  {
 
 #leftnav    {
     float:left;
+    display: inline-block;
 }
 
 #rightnav {
     float: right;
+    display: inline-block;
+}
+
+.material-icons {
+   background-color: white;
+   border: none;
 }
