@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            a:link{
+              text-decoration: none!important;
+              cursor: pointer;
+            }
+            </style>
+            
         <link rel="stylesheet"  href="homepage-style.css">
-        <title>Google</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title>Google Homepage</title>
 </head>
-<body>
+<body>    
+<div>
+    <nav id="navbar">
+        <ul id="rightnav">
+        <li><a class="nav-link" href="" id="gmail" >Gmail</a></li>
+        <li><a class="nav-link" href="" id="images">images </a></li>
+        <li><a class="nav-link" href="">
+            <button class="material-icons">apps</button>
+        </a></li>
+        <li><a class="nav-link" href="" id="sign-in">Sign In</a></li>
+        </ul>
+        <ul id="leftnav">
+            <li><a class="nav-link" href="">About</a></li>
+            <li><a class="nav-link" href="">Store</a></li>
+        </ul>
+    </nav>
+    </div>
+<main class="main"> 
     <div>
          <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
          </div>
@@ -12,14 +37,15 @@
         <form id="form">
             <input type="search" id="query" name="query" placeholder="Search">
             <br>
-            <button>Google Search</button>
-            <button>I"m Feeling Lucky</button>
+            <button id="search">Google Search</button>
+            <button id="lucky">I"m Feeling Lucky</button>
         </form>
     </div>
+ </main>
+</body>
 
 
     
-</body>
 
 
 
